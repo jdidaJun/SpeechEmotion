@@ -1,0 +1,100 @@
+{
+  "type": "bubble",
+  "hero": {
+    "type": "image",
+    "url": "https://i.imgur.com/CJ9whRN.png",
+    "size": "full",
+    "aspectRatio": "6:4",
+    "aspectMode": "fit",
+    "action": {
+      "type": "uri",
+      "uri": "https://linecorp.com"
+    },
+    "margin": "none"
+  },
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "md",
+    "contents": [
+      {
+        "type": "box",
+        "layout": "baseline",
+        "contents": [
+          {
+            "type": "icon",
+            "url": "https://cdn-icons.flaticon.com/png/512/1357/premium/1357642.png?token=exp=1641895711~hmac=ffa530a64fb9639ca29092d5c643959d",
+            "size": "xxl"
+          },
+          {
+            "type": "text",
+            "text": "Emotion Probability",
+            "size": "xl",
+            "weight": "bold",
+            "margin": "md",
+            "decoration": "underline",
+            "offsetTop": "none",
+            "offsetBottom": "none",
+            "adjustMode": "shrink-to-fit"
+          }
+        ]
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://cdn-icons.flaticon.com/png/512/615/premium/615166.png?token=exp=1641896364~hmac=2808e2ea527ffbe55c4e75481cb0f65f",
+                "size": "sm"
+              },
+              {
+                "type": "text",
+                "text": "你覺得準嗎?",
+                "weight": "bold",
+                "margin": "sm",
+                "flex": 0,
+                "size": "md"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "borderWidth": "none"
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "primary",
+        "action": {
+          "type": "message",
+          "label": "我覺得可以",
+          "text": "準!"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "太不準了",
+          "text": "不行~讓我來助你一臂之力!"
+        },
+        "style": "secondary",
+        "offsetTop": "md",
+        "color": "#dcdcdc"
+      }
+    ],
+    "offsetEnd": "none",
+    "offsetBottom": "none",
+    "paddingBottom": "xxl"
+  }
+}

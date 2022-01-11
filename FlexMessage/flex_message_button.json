@@ -1,0 +1,99 @@
+{
+  "type": "bubble",
+  "body": {
+    "type": "box",
+    "layout": "vertical",
+    "spacing": "sm",
+    "contents": [
+      {
+        "type": "text",
+        "text": "Help us improve this model, thx!",
+        "size": "md",
+        "weight": "bold"
+      },
+      {
+        "type": "box",
+        "layout": "vertical",
+        "spacing": "sm",
+        "contents": [
+          {
+            "type": "box",
+            "layout": "baseline",
+            "contents": [
+              {
+                "type": "icon",
+                "url": "https://cdn-icons-png.flaticon.com/512/751/751782.png",
+                "size": "lg"
+              },
+              {
+                "type": "text",
+                "text": "請選擇情緒",
+                "weight": "bold",
+                "margin": "sm",
+                "flex": 0,
+                "offsetStart": "sm",
+                "size": "lg"
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "footer": {
+    "type": "box",
+    "layout": "vertical",
+    "contents": [
+      {
+        "type": "button",
+        "style": "link",
+        "action": {
+          "type": "message",
+          "label": "happy",
+          "text": "happy"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "calm",
+          "text": "calm"
+        },
+        "style": "link"
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "angry",
+          "text": "angry"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "sad",
+          "text": "sad"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "disgust",
+          "text": "disgust"
+        }
+      },
+      {
+        "type": "button",
+        "action": {
+          "type": "message",
+          "label": "surprised",
+          "text": "surprised"
+        }
+      }
+    ]
+  }
+}
