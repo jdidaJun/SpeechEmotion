@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-!vg7*pxmi-lc^#v^+m+h8!lgx_my1(jw&f**tj55g#n4z2uwi$
 DEBUG = True
 
 ALLOWED_HOSTS = [
-    "e2cf-2001-b400-e2d3-ff8d-8456-b7bf-f76a-d86.ngrok.io" # 允許的網域名稱
+    "3cff-2001-b400-e2d3-ff8d-d188-8c9b-9ff6-f01f.ngrok.io" # 允許的網域名稱
 ]
 
 
